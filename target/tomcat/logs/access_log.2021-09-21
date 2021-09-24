@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:00 +0545] "GET / HTTP/1.1" 200 1451 http-bio-9090-exec-1 47
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:00 +0545] "GET /StyleCss/index.css HTTP/1.1" 200 4807 http-bio-9090-exec-3 12
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:00 +0545] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-4 8
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:19 +0545] "POST /login HTTP/1.1" 200 2683 http-bio-9090-exec-5 474
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:19 +0545] "GET /Js/index.js HTTP/1.1" 200 702 http-bio-9090-exec-7 7
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:24 +0545] "GET /view/Deposit.jsp HTTP/1.1" 200 2915 http-bio-9090-exec-8 38
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:24 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-9 1
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:29 +0545] "POST /Acc/getInfodeposit HTTP/1.1" 200 - http-bio-9090-exec-10 27
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:11:36 +0545] "GET /view/AllDetail.jsp HTTP/1.1" 500 2676 http-bio-9090-exec-10 91
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:18 +0545] "GET /view/AllDetail.jsp HTTP/1.1" 200 6431 http-bio-9090-exec-1 681
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:18 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-3 7
+0:0:0:0:0:0:0:1 - - [21/Sep/2021:21:20:18 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-4 1
