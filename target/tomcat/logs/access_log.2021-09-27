@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:13 +0545] "GET /StyleCss/index.css HTTP/1.1" 304 - http-bio-9090-exec-1 67
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:13 +0545] "GET /StyleCss/index.css HTTP/1.1" 200 4941 http-bio-9090-exec-2 67
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:13 +0545] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9090-exec-4 4
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:21 +0545] "POST /login HTTP/1.1" 200 4209 http-bio-9090-exec-5 636
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:51 +0545] "GET /view/Deposit.jsp HTTP/1.1" 200 2865 http-bio-9090-exec-7 70
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:51 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-8 1
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:52 +0545] "GET /view/Withdraw.jsp HTTP/1.1" 200 2869 http-bio-9090-exec-9 63
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:52 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-10 1
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:54 +0545] "GET /view/Statement.jsp HTTP/1.1" 200 4355 http-bio-9090-exec-10 74
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:54 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-10 3
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:56 +0545] "GET /view/OpenAcc.jsp HTTP/1.1" 200 5776 http-bio-9090-exec-3 52
+0:0:0:0:0:0:0:1 - - [27/Sep/2021:09:24:56 +0545] "GET /view/StyleCss/index.css HTTP/1.1" 404 997 http-bio-9090-exec-4 2

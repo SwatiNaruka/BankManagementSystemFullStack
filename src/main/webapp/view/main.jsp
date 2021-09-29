@@ -73,7 +73,7 @@
 				<h3 style="font-weight: 400; color:#ef6c00;">Technologies we Used for Front-end</h3>
 				<ul>
 					<li >HTML </li>
-					<li>JSP</li>
+					
 					<li>CSS</li>
 					<li>JQUERY</li>
 					<li>BOOTSTRAP</li>
@@ -81,6 +81,7 @@
 				
 			<h3 style="font-weight: 400; color:#ef6c00;">Technologies we Used for Back-end</h3>
 				<ul>
+					<li>JSP</li>
 					<li>Servlet </li>
 					<li>MySQL for DATABASE</li>
 					

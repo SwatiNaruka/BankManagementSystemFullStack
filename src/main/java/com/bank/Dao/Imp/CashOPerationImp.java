@@ -37,7 +37,8 @@ public class CashOPerationImp implements CashOperation{
 		
 		
 	}
-	public static  int CashUpdation(OpenAccount x) {
+	
+	public static  int CashUpdation(OpenAccount x){
 		////AddCashDeposit(deposit);
 		
 		con = DbConnection.getConnection( );

@@ -76,6 +76,7 @@ public class Files extends HttpServlet{
 					List<StatementBean> s =t.statementTable(obj);				
 									
 				int status = excel(s);
+				
 						if(status >0) {
 							downloadXL(req, resp);
 							

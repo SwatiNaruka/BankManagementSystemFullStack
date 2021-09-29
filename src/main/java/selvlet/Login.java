@@ -42,8 +42,9 @@ public class Login extends HttpServlet{
 				req.setAttribute("value", a);
 			}
 			
-					LocalDate date= LocalDate.now();
+					LocalDate date = LocalDate.now();
 					LocalDate lastDate=date.withDayOfMonth(1);
+					 
 					
 					DashBoard datecheck=new DashBoard();
 					datecheck.setA(lastDate);

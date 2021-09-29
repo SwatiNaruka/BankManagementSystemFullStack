@@ -33,6 +33,7 @@ public class Account extends HttpServlet{
  
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		try {
 		String path=req.getServletPath().concat(req.getPathInfo());
 			
 		if(path.equals("/Acc/closeAc")){
@@ -143,15 +144,8 @@ public class Account extends HttpServlet{
 		                      int status= obj.submitFormData(x);
 		                      	if(status >0) {
 		                      		System.out.println("data inserted");
-									/*
-									 * RequestDispatcher rd=req.getRequestDispatcher("../view/OpenAccDisplay.jsp");
-									 * rd.forward(req, resp);
-									 */
-		            				
-									/* req.setAttribute("status", status); */
-		            				resp.getWriter().print("data submmited");
+								        				resp.getWriter().print("data submmited");
 		                      	}
-								
 								  req.setAttribute("message", "Upload has been done successfully!");
 		                    }
 		                }
@@ -251,6 +245,8 @@ public class Account extends HttpServlet{
 					}
 		}
 	
+	}catch(Exception e) {
+		e.printStackTrace();
 	}
-	
+	}
 }

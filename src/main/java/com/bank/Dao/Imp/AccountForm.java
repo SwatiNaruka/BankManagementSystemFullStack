@@ -20,9 +20,8 @@ public class AccountForm implements OpenAccForm {
 		try {
 			Statement stmt=con.createStatement();
 			String sql = "insert into AllAccount value("+x.getACno()+",'"+x.getName()+"','"+x.getFatherName()+"','"+x.getGender()+"','"+x.getMeritalStatus()+"','"+x.getTypeOfAc()+"','"+x.getDOB()+"','"+x.getServiseRequired()+"',"+x.getAmount()+",'"+x.getPhotoName()+"')";
-			//insert into dept value("+d.getDept_id()+",'"+d.getDeptName()+"') ";
-			int status = stmt.executeUpdate(sql);
-							
+			//insert into dept value("+d.getDept_id()+",'"+d.getDeptName()+"')";
+			int status = stmt.executeUpdate(sql);							
 			return status;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

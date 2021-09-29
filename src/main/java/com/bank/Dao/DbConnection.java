@@ -22,7 +22,5 @@ public class DbConnection {
 					e.printStackTrace();
 				}
 			return null;
-			
-			
 		} 	
 }
